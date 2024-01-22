@@ -25,11 +25,11 @@ Welcome to Streamix, an innovative integration of Kafka, GraphQL, and Presto. Th
    - Set up Presto by following the guidelines in the `/presto` directory.
 
 ## Usage
-- **Kafka**:
+1. **Kafka**:
   - Produce and consume messages through Kafka topics.
-- **GraphQL**:
+2. **GraphQL**:
   - Use the GraphQL endpoint to query data in real-time.
-- **Presto**:
+3. **Presto**:
   - Run SQL queries over your Kafka streams and other data sources.
 
 ## Configuration
