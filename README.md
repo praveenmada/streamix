@@ -1,2 +1,2 @@
 # Streamix
-Kafka + GraphQl + Presto
+Kafka + GraphQL + Presto
