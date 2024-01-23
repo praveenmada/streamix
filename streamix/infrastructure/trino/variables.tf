@@ -1,7 +1,7 @@
 /**
- * Namespace for kafka
+ * Namespace for trino
 */
 variable "namespace" {
   type    = string
-  default = "presto"
+  default = "trino"
 }

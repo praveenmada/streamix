@@ -1,13 +1,13 @@
 
-# Streamix: Kafka + GraphQL + Presto
+# Streamix: Kafka + Trino + GraphQL
 
 ## Introduction
-Welcome to Streamix, an innovative integration of Kafka, GraphQL, and Presto. This project aims to harness the real-time data streaming capabilities of Kafka, the flexibility of GraphQL, and the powerful querying capabilities of Presto.
+Welcome to Streamix, an innovative integration of Kafka, GraphQL, and Trino. This project aims to harness the real-time data streaming capabilities of Kafka, the flexibility of GraphQL, and the powerful querying capabilities of Trino (formerly known as Presto).
 
 ## Features
 - **Kafka**: Leverage real-time data streaming and processing.
+- **Trino**: Utilize distributed SQL query engine for big data analytics.
 - **GraphQL**: Create flexible and efficient data queries and APIs.
-- **Presto**: Utilize distributed SQL query engine for big data analytics.
 
 ## Prerequisites
 - Docker and Docker Compose
@@ -18,19 +18,20 @@ Welcome to Streamix, an innovative integration of Kafka, GraphQL, and Presto. Th
 1. **Kafka Setup**:
    - Follow the instructions in the `/kafka` directory to set up Kafka brokers and Zookeeper.
 
-2. **GraphQL Setup**:
-   - Instructions for setting up the GraphQL interface are available in the `/apollo` directory.
+2. **Trino Setup**:
+   - Set up Trino by following the guidelines in the `/trino` directory.
 
-3. **Presto Setup**:
-   - Set up Presto by following the guidelines in the `/presto` directory.
+3. **GraphQL Setup**:
+   - Instructions for setting up the GraphQL interface are available in the `/apollo` directory.
 
 ## Usage
 1. **Kafka**:
-  - Produce and consume messages through Kafka topics.
-2. **GraphQL**:
-  - Use the GraphQL endpoint to query data in real-time.
-3. **Presto**:
-  - Run SQL queries over your Kafka streams and other data sources.
+    - Produce and consume messages through Kafka topics.
+2. **Trino**:
+    - Run SQL queries over your Kafka streams and other data sources.
+3. **GraphQL**:
+    - Use the GraphQL endpoint to query data in real-time.
+
 
 ## Configuration
 - Configuration files for each component can be found in their respective directories. Customize them as per your needs.
