@@ -1,5 +1,5 @@
 /**
- * Namespace for kafka
+ * Namespace for presto
 */
 variable "namespace" {
   type    = string
